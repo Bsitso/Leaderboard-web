@@ -2,17 +2,19 @@
 
 <table>
     <thead>
+        <th>Clan</th>
         <th>Name</th>
-        <th>Honour</th>
-        <th>Language</th>
-        <th>Rank</th>
+        <th>Honourk</th>
+        <th>Over All Rank</th>
+        <th>Languages</th>
     </thead>
     <tbody>
         <tr *ngFor="let data of allData">
+            <td>{{data.clan}}</td>
             <td>{{data.username}}</td>
-            <td>{{data.honour}}</td>
             <td>{{data.honour}}</td> 
-            <td>{{data.overall_rank}}</td>
+            <td>{{data.overall_rank}}</td> 
+            <td>{{data.languages[0].name}}</td> 
         </tr>
     </tbody>
 </table>

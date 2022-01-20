@@ -1,16 +1,16 @@
-
+<p>overall_rank works!</p>
 <table>
     <thead>
         <th>Name</th>
         <th>Honour</th>
-        <!-- <th>Language</th> -->
+        <th>Languages</th>
         <th>Rank</th>
     </thead>
     <tbody>
         <tr *ngFor="let data of rankData">
             <td>{{data.username}}</td>
             <td>{{data.honour}}</td>
-            <!-- <td>{{data.honour}}</td> -->
+            <td>{{data.languages[0].name}}</td>
             <td>{{data.overall_rank}}</td>
         </tr>
     </tbody>

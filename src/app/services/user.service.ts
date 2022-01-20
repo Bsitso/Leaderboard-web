@@ -12,8 +12,6 @@ export class UserService {
   constructor(private httpClient: HttpClient) { }
 
   addUser(username: string): Observable<any>{
-    
-    // console.log(username);
     return this.httpClient.post(`${this.ADD_USER_API_URL}/${username}`, {})
   }
   
