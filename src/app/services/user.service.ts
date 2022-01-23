@@ -12,7 +12,7 @@ export class UserService {
   constructor(private httpClient: HttpClient) { }
 
   addUser(username: string): Observable<any>{
-    return this.httpClient.post(`${this.ADD_USER_API_URL}/${username}`, {})
+    return this.httpClient.post<any>(`${this.ADD_USER_API_URL}/${username}`, {username: username})
   }
   
 }
