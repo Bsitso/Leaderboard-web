@@ -13,14 +13,13 @@ export class AddUserComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  addUser(){
+  addUser(){    
     if(this.username != ""){
       this.userService.addUser(this.username).subscribe((data) => {
         console.log("User added: ", data);
       })
-//     }else{
-// Username);
-      
+    }else{
+      console.log("username is empty");
     }
   }
   

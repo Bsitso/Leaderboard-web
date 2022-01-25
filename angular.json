@@ -36,10 +36,28 @@
               }
             ],
             "styles": [
+              "node_modules/soft-ui-design-system/assets/css/nucleo-icons.css",
+              "node_modules/soft-ui-design-system/assets/css/nucleo-svg.css",
+              "node_modules/soft-ui-design-system/assets/css/soft-design-system.min.css",
               "src/theme.less",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/soft-ui-design-system/assets/js/core/popper.min.js",
+              "node_modules/soft-ui-design-system/assets/js/core/bootstrap.min.js",
+              "node_modules/soft-ui-design-system/assets/js/plugins/perfect-scrollbar.min.js",
+              "node_modules/soft-ui-design-system/assets/js/plugins/perfect-scrollbar.min.js",
+              "node_modules/soft-ui-design-system/assets/js/soft-design-system.min.js",
+              "node_modules/soft-ui-design-system/assets/js/plugins/countup.min.js",
+              "node_modules/soft-ui-design-system/assets/js/plugins/choices.min.js",
+              "node_modules/soft-ui-design-system/assets/js/plugins/prism.min.js",
+              "node_modules/soft-ui-design-system/assets/js/plugins/rellax.min.js",
+              "node_modules/soft-ui-design-system/assets/js/plugins/tilt.min.js",
+              "node_modules/soft-ui-design-system/assets/js/plugins/choices.min.js",
+              "node_modules/soft-ui-design-system/assets/js/plugins/parallax.min.js",
+              "src/assets/sweetalert2/sweetalert2.all.min.js"
+            ]
           },
           "configurations": {
             "production": {

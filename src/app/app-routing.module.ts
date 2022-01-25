@@ -14,7 +14,7 @@ const routes: Routes = [
     children: [
       {path:'', component: LeaderboardComponent},
       {path:'honor', component: HonorComponent},
-      {path:'rank', component: OverallRankComponent},
+      {path:'overall-rank', component: OverallRankComponent},
       {path:'user', component: AddUserComponent},
     ]
   },
